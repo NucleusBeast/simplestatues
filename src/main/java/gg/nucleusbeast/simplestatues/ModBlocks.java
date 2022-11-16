@@ -1,6 +1,6 @@
 package gg.nucleusbeast.simplestatues;
 
-import gg.nucleusbeast.simplestatues.blocks.CatStatue;
+import gg.nucleusbeast.simplestatues.blocks.CustomBlock;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
@@ -24,7 +24,7 @@ public class ModBlocks {
             new Block(BlockBehaviour.Properties.of(Material.WOOD).strength(0.5f)), CreativeModeTab.TAB_MISC);
 
     public static final RegistryObject<Block> CAT_STATUE = registerBlock("cat_statue", () ->
-            new CatStatue(BlockBehaviour.Properties.of(Material.WOOD).strength(0.5f).noOcclusion()), CreativeModeTab.TAB_MISC);
+            new CustomBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(0.5f).noOcclusion()), CreativeModeTab.TAB_MISC);
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> _block = BLOCKS.register(name, block);

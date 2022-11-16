@@ -18,11 +18,11 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.stream.Stream;
 
-public class CatStatue extends Block {
+public class CustomBlock extends Block {
 
     public static final DirectionProperty FACING = BlockStateProperties.HORIZONTAL_FACING;
 
-    public CatStatue(Properties pProperties) {
+    public CustomBlock(Properties pProperties) {
         super(pProperties);
     }
 
