@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model":  "simplestatues:block/cat_statue"},
+    "facing=east": { "model":  "simplestatues:block/cat_statue", "y":  90},
+    "facing=south": { "model":  "simplestatues:block/cat_statue", "y":  180},
+    "facing=west": { "model":  "simplestatues:block/cat_statue", "y":  270}
+  }
+}
